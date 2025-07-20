@@ -101,7 +101,22 @@
                     </div>
                 </div>
             </div>
-
+ <!-- Plinko -->
+  <div id="plinko-section" style="margin: 0 auto; max-width: 430px;">
+    <h2 style="color:#fff;text-align:center;margin:16px 0 10px 0;">1win × PLINKO</h2>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <div style="color:#aaa;">Balance: <span id="plinko-balance">100.00</span> $</div>
+      <div></div>
+    </div>
+    <div style="margin-bottom:10px;">
+      <label style="color:#aaa;">Bet: <input id="plinko-bet" type="number" min="0.01" step="0.01" value="0.2" style="width:70px;"> $</label>
+      <button id="plinko-bet-btn" style="margin-left:10px;">Bet 🎱</button>
+    </div>
+    <div id="plinko-board" style="margin: 0 auto 12px auto; width:350px;height:360px;position:relative;background:transparent;"></div>
+    <div id="plinko-multipliers" style="display:flex;justify-content:center;gap:2px;"></div>
+    <div id="plinko-result" style="margin-top:15px;text-align:center;font-weight:bold;color:#38f;"></div>
+  </div>
+        </div>
             <!-- LuckyJet Game -->
             <div id="luckyjetGame" class="game-container" style="display: none;">
                 <button onclick="showMenu()" class="back-button">Back to Menu</button>
