@@ -486,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Channel button
         document.getElementById('channelBtn').addEventListener('click', () => {
-            window.open('https://t.me/+Xp1HJnOy_S1jZmZk', '_blank');
+            window.open('https://t.me/+eYD9kgen8v01YzY0', '_blank');
         });
 
         // Subscribed button
